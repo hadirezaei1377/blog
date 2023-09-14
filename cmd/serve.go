@@ -15,6 +15,6 @@ var serveCmd = &cobra.Command{
 	},
 }
 
-// func serve() {
-// 	bootstrap.Serve()
-// }
+func serve() {
+	bootstrap.Serve()
+}

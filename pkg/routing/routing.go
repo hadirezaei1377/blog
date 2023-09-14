@@ -2,7 +2,6 @@ package routing
 
 import (
 	"blog/internal/providers/routes"
-
 	"github.com/gin-gonic/gin"
 )
 
