@@ -3,6 +3,7 @@ package routes
 import (
 	"blog/internal/middlewares"
 	articleCtrl "blog/internal/modules/article/controllers"
+
 	"github.com/gin-gonic/gin"
 )
 

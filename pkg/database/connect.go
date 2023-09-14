@@ -3,9 +3,10 @@ package database
 import (
 	"blog/pkg/config"
 	"fmt"
+	"log"
+
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"log"
 )
 
 func Connect() {

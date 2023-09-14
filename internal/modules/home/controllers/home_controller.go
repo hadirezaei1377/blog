@@ -3,8 +3,9 @@ package controllers
 import (
 	ArticleService "blog/internal/modules/article/services"
 	"blog/pkg/html"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 type Controller struct {

@@ -2,6 +2,7 @@ package html
 
 import (
 	"blog/internal/providers/view"
+
 	"github.com/gin-gonic/gin"
 )
 

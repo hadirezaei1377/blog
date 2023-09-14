@@ -3,8 +3,9 @@ package errors
 import (
 	"blog/internal/providers/validation"
 	"errors"
-	"github.com/go-playground/validator/v10"
 	"strings"
+
+	"github.com/go-playground/validator/v10"
 )
 
 var errorsList = make(map[string]string)
