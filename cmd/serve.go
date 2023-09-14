@@ -1,6 +1,10 @@
 package cmd
 
-import "github.com/spf13/cobra"
+import (
+	"blog/pkg/bootstrap"
+
+	"github.com/spf13/cobra"
+)
 
 func init() {
 	rootCmd.AddCommand(serveCmd)
